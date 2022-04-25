@@ -6,7 +6,7 @@ This example demonstrates how to add the console component to a custom applicati
 
 ## Map
 
-![steps](/map.png)
+![steps](/map.jpg)
 
 
 ### Hardware Required
