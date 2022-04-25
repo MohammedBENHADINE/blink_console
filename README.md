@@ -1,14 +1,13 @@
-# Blink Example
+# Blink & Console
 
 (See the README.md file in the upper level 'examples' directory for more information about examples.)
 
-This example demonstrates how to blink a LED using GPIO or RMT for the addressable LED, i.e. [WS2812](http://www.world-semi.com/Certifications/WS2812B.html).
+This example demonstrates how to add the console component to a custom application, blink sketch is used as base to demonstrate.
 
-See the RMT examples in the [RMT Peripheral](../../peripherals/rmt) for more information about how to use it.
+## Map
 
-## How to Use Example
+![steps](/map.png)
 
-Before project configuration and build, be sure to set the correct chip target using `idf.py set-target <chip_name>`.
 
 ### Hardware Required
 
@@ -24,6 +23,7 @@ Some development boards use an addressable LED instead of a regular one. These d
 | ESP32-S2-DevKitM-1   | Addressable          | GPIO18               |
 | ESP32-S2-Saola-1     | Addressable          | GPIO18               |
 | ESP32-S3-DevKitC-1   | Addressable          | GPIO48               |
+| ESP32 general board  | Addressable          | GPIO2                |
 
 See [Development Boards](https://www.espressif.com/en/products/devkits) for more information about it.
 
